@@ -1,14 +1,5 @@
 --- origsrc/wv-1.2.3/GNUmakefile.am	2005-07-24 11:23:05.000000000 -0500
 +++ src/wv-1.2.3/GNUmakefile.am	2006-10-19 21:23:02.179375000 -0500
-@@ -14,7 +14,7 @@
- 
- wvhdrdir = $(includedir)/wv
- 
--wvhdr_HEADERS = wv.h
-+wvhdr_HEADERS = wv.h wvinternal.h
- 
- bin_SCRIPTS = wvCleanLatex wvHtml wvDocBook wvAbw wvMime wvPS wvDVI wvLatex wvPDF wvText wvWml
- 
 @@ -31,7 +31,7 @@
  wvVersion_LDADD = libwv.la $(WVLIBS) $(GETOPT)
  
@@ -18,13 +9,3 @@
  libwv_la_SOURCES = \
  	winmmap.c \
  	list.c \
-@@ -135,8 +135,7 @@
- 	rc4.h \
- 	roman.h \
- 	utf.h \
--	winmmap.h \
--	wvinternal.h
-+	winmmap.h
- 
- OTHERSCRIPTS = wvMime
- 

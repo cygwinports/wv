@@ -1,0 +1,11 @@
+DESCRIPTION="MS Word conversion library and utilities"
+HOMEPAGE="http://wvware.sourceforge.net/"
+SRC_URI="mirror://sourceforge/wvware/${P}.tar.gz"
+PATCH_URI="1.2.3-no-undefined.patch"
+
+PKG_NAMES="${PN} libwv1.2_3 libwv-devel"
+wv_CONTENTS="usr/bin/wv* usr/share/"
+libwv1_2_3_CONTENTS="usr/bin/*-1-2-3.dll"
+libwv_devel_CONTENTS="usr/include/ usr/lib/"
+
+CYGCONF_ARGS="--with-libxml2 --with-libwmf"
