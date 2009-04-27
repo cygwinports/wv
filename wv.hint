@@ -1,5 +1,5 @@
 category: Graphics Text
-requires: bash cygwin libglib2.0_0 libgsf1_114 libwmf027 libwv1.2_3
+requires: bash cygwin libgcc1 libglib2.0_0 libgsf1_114 libwmf027 libwv1.2_3
 sdesc: "MS Word conversion utilities"
 ldesc: "wvWare includes a library and sample apps that convert
 MS Word 2,6,7,8,9 files to html and latex. The Word 2 conversion
