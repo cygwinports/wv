@@ -1,5 +1,5 @@
 category: Graphics Text
-requires: libwv1.2_3 libglib2.0-devel libgsf1-devel libxml2-devel zlib-devel
+requires: libwv1.2_4 libglib2.0-devel libgsf1-devel libxml2-devel zlib-devel
 external-source: wv
 sdesc: "MS Word conversion library (development)"
 ldesc: "wvWare includes a library and sample apps that convert
