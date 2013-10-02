@@ -1,5 +1,5 @@
 NAME="wv"
-VERSION=1.2.7
+VERSION=1.2.9
 RELEASE=1
 CATEGORY="Libs"
 SUMMARY="MS Word conversion library"
@@ -9,7 +9,6 @@ DESCRIPTION="wvWare includes a library and sample apps that convert MS Word
 what you probably want anyway."
 HOMEPAGE="http://wvware.sourceforge.net/"
 SRC_URI="http://www.abisource.com/downloads/wv/${VERSION}/wv-${VERSION}.tar.gz"
-PATCH_URI="1.2.3-no-undefined.patch"
 
 PKG_NAMES="wv libwv1.2_4 libwv-devel"
 wv_CATEGORY="Text"
