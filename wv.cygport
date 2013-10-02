@@ -1,0 +1,21 @@
+NAME="wv"
+VERSION=1.2.7
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="MS Word conversion library"
+DESCRIPTION="wvWare includes a library and sample apps that convert MS Word
+2,6,7,8,9 files to html and latex. The Word 2 conversion is still incomplete
+(no formatting), but it will do a passable job extracting the text, which is
+what you probably want anyway."
+HOMEPAGE="http://wvware.sourceforge.net/"
+SRC_URI="http://www.abisource.com/downloads/wv/${VERSION}/wv-${VERSION}.tar.gz"
+PATCH_URI="1.2.3-no-undefined.patch"
+
+PKG_NAMES="wv libwv1.2_4 libwv-devel"
+wv_CATEGORY="Text"
+wv_SUMMARY=${SUMMARY/library/utilties}
+wv_CONTENTS="usr/bin/wv* usr/share/"
+libwv1_2_4_CONTENTS="usr/bin/*-1-2-4.dll"
+libwv_devel_CONTENTS="usr/include/ usr/lib/"
+
+CYGCONF_ARGS="--with-libwmf"

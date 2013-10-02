@@ -1,8 +1,0 @@
-category: Graphics Text
-requires: libwv1.2_4 libglib2.0-devel libgsf1-devel libxml2-devel zlib-devel
-external-source: wv
-sdesc: "MS Word conversion library (development)"
-ldesc: "wvWare includes a library and sample apps that convert
-MS Word 2,6,7,8,9 files to html and latex. The Word 2 conversion
-is still incomplete (no formatting), but it will do a passable
-job extracting the text, which is what you probably want anyway."
