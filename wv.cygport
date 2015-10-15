@@ -1,6 +1,6 @@
 NAME="wv"
 VERSION=1.2.9
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="MS Word conversion library"
 DESCRIPTION="wvWare includes a library and sample apps that convert MS Word
@@ -9,6 +9,7 @@ DESCRIPTION="wvWare includes a library and sample apps that convert MS Word
 what you probably want anyway."
 HOMEPAGE="http://wvware.sourceforge.net/"
 SRC_URI="http://www.abisource.com/downloads/wv/${VERSION}/wv-${VERSION}.tar.gz"
+PATCH_URI="http://pkgs.fedoraproject.org/cgit/wv.git/plain/format-security.patch#/wv-1.2.9-format-security.patch"
 
 PKG_NAMES="wv libwv1.2_4 libwv-devel"
 wv_CATEGORY="Text"
