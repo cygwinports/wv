@@ -13,7 +13,7 @@ PATCH_URI="http://pkgs.fedoraproject.org/cgit/wv.git/plain/format-security.patch
 
 PKG_NAMES="wv libwv1.2_4 libwv-devel"
 wv_CATEGORY="Text"
-wv_SUMMARY=${SUMMARY/library/utilties}
+wv_SUMMARY=${SUMMARY/library/utilities}
 wv_CONTENTS="usr/bin/wv* usr/share/"
 libwv1_2_4_CONTENTS="usr/bin/*-1-2-4.dll"
 libwv_devel_CONTENTS="usr/include/ usr/lib/"
